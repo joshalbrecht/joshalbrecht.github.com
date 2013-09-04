@@ -1,58 +1,158 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
-   <meta name="author" content="{{ site.author.name }}" />
-   <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="your title" type="application/atom+xml" />
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="author" content="{{ site.author.name }}" />
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/syntax.css" type="text/css" />
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-   <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="{{ ASSET_PATH }}/css/syntax.css" type="text/css" />
+    <!-- For IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.css" type="text/css" media="screen, projection" />
+    <!--  inline stylesheets ftw -->
+    <style>
+        .top {
+        border-bottom: 1px solid black;
+        }
+        .bottom {
+        padding-top: 40px;
+        }
+        .navlink {
+        float: right;
+        text-align: right;
+        clear: both;
+        margin-right:30px;
+        margin-bottom: 40px;
+        font-family: 'Arial Black', Arial;
+        }
+        .navlink a {
+        color: #333;
+        font-family: 'Arial Black', Arial;
+        font-size: 14px;
+        font-weight: bold;
+        }
+        .content {
+        padding-left: 30px;
+        padding-top: 30px;
+        }
+        .social-button {
+        width: 40px;
+        }
+        .page {
 
-   <!-- Typekit -->
-   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
-   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        }
+        p {
+        font-family: Palatino Linotype;
+        }
+        h1 {
+        font-family: 'Arial Black', Arial;
+        white-space: nowrap;
+        margin-bottom: 22px;
+        }
+        .entry {
+        margin-bottom: 60px;
+        }
+        .photo {
+        margin-right:0px;
+        }
+        .photo-header {
+        margin-top:60px;
+        }
+        #name {
+        padding-left: 30px;
+        padding-bottom: 20px;
+        margin-top: 131px;
+        margin-bottom: 0px;
+        font-family: Palatino Linotype;
+        font-size: 100px;
+        white-space: nowrap;
+        color: #333;
+        }
+        a:link {text-decoration:none;}
+        a:visited {text-decoration:none;}
+        a:hover {text-decoration:none;}
+        a:active {text-decoration:none;}
+
+        .navlink > a:link    {}
+        .navlink > a:visited {}
+        .navlink > a:hover   {color: #888;}
+        .navlink > a:active  {color: #888;}
+    </style>
+
+
+    <link rel="shortcut icon" type="image/ico" href="{{ ASSET_PATH }}/media/icons/favicon.ico">
+    <script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.min.js"></script><link type="text/css" rel="stylesheet" href="data:text/css,">
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-30894035-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
 </head>
-<body>
 
-  <div class="site">
-    <div class="title">
-      <a href="{{ HOME_PATH }}">{{ site.title }}</a>
+<body style="background-color:#FFF">
+<div class="container" id="wrapper">
+    <div class="row" style="margin-top:60px">
+        <div class="span3">
+            <div class="top">
+                <a href="{{ HOME_PATH }}"><img style="width:100%" src="{{ ASSET_PATH }}/images/josh.png"/></a>
+            </div>
+            <div class="bottom">
+                <p style="margin-top:30px" class="navlink"><a href="{{ HOME_PATH }}">About</a></p>
+                <p class="navlink"><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Current Projects</a></p>
+                <p class="navlink"><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Resume</a></p>
+                <p class="navlink"><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Index</a></p>
+                <p class="navlink"><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Contact</a></p>
+            </div>
+        </div>
+        <div class="span9" style="margin-left: 0px;border-left:1px solid black;">
+            <div class="top">
+                <a href="{{ HOME_PATH }}"><h1 id="name">{{ site.author.name }}</h1></a>
+            </div>
+            <div class="bottom">
+                <div class="content">
+                    <div id="main-page" class="page">
 
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a>
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">Pages</a>
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a>
+                        {{ content }}
+
+                    </div>
+
+                </div>
+            </div>
+            <footer style="margin-top:100px;">
+                <p style="margin-left:22px">
+                    <a href="mailto:{{ site.author.email }}"><img class="social-button" src='{{ ASSET_PATH }}/images/gmail.png'/></a>
+                    <a href="http://www.google.com/talk/service/badge/Start?tk=z01q6amlqblrq4rqf2tv964o6eiiurpan90ieuh6rtqa0e12cptue7kklvpnrfs8jvdtnc866gpjlk1jrv6hb93t2f95cl0mh3bljolauhj6hbachn6v6tkit4qoru3osl0mti9qsj3shp3dle2108jeakinv8hog37o1ma0r"><img class="social-button" src='{{ ASSET_PATH }}/images/gtalk.png'/></a>
+                    <a href="skype:josh.albrecht?add"><img class="social-button" src='{{ ASSET_PATH }}/images/skype.png'/></a>
+                    <a href="http://www.linkedin.com/in/joshalbrecht"><img class="social-button" src='{{ ASSET_PATH }}/images/linkedin.png'/></a>
+                    <a href="http://www.facebook.com/joshua.albrecht"><img class="social-button" src='{{ ASSET_PATH }}/images/facebook.png'/></a>
+                    <a href="https://twitter.com/#!/joshalbrecht"><img class="social-button" src='{{ ASSET_PATH }}/images/twitter.png'/></a>
+                </p>
+                <p style="text-align:left;margin-left:30px">Josh Albrecht 2012</p>
+            </footer>
+        </div>
     </div>
-  
-    {{ content }}
-  
-    <div class="footer">
-      <div class="contact">
-        <p>
-          {{ site.author.name }}<br />
-          {{ site.tagline }}<br />
-          <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a>
-        </p>
-      </div>
-      <div class="contact">
-        <p>
-          <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
-          <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a><br />
-        </p>
-      </div>
-      <div class="rss">
-        <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}">
-          <img src="{{ ASSET_PATH }}/images/rss.png" alt="Subscribe to RSS Feed" />
-        </a>
-      </div>
-    </div>
-  </div>
-  <a href="http://github.com/{{ site.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+</div> <!-- /container -->
+<div style="height:200px"> </div>
 
-  {% include JB/analytics %}
+
+<!-- Javascript placed at the end of the document so the pages load faster -->
+
+<!-- Use this instead eventually, at the bottom of the page: {% include JB/analytics %} and probably remove the GA header-->
+
+<script type="text/javascript" src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.4.min.js"></script>
+
 </body>
 </html>

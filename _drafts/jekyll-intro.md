@@ -2,6 +2,9 @@
 layout: post
 category : lessons
 tagline: "Supporting tagline"
+nav_list: 
+  Something: saasdf
+  Something else: sdfsd
 tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
@@ -128,7 +131,7 @@ Jekyll expects your website directory to be laid out like so:
 ### Jekyll Configuration
 
 Jekyll supports various configuration options that are fully outlined here:
-<https://github.com/mojombo/jekyll/wiki/Configuration>
+(Configuration <https://github.com/mojombo/jekyll/wiki/Configuration>)
 
 
 

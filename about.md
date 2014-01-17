@@ -5,23 +5,32 @@ header : About
 ---
 {% include JB/setup %}
 
-### These are my values:
+### Skills
 
-- Transparency
-- Truth
-- Growth
-- Honor
-- Perfection
+- Programming (~15,000 hours combined of Python, Java, Scala, C++, Javascript, C, Lua, Perl, PHP, and more)
+- Business (started two companies, sold one)
+- Software architecture and big data (planned and built a 100K LOC system that modelled all of the world's financial information for Addepar)
+- Machine learning (published multiple papers using SVMs to optimize machine translation evaluation)
+- Speed reading
+- Thinking (interested in cognitive biases, heuristics, rationality, etc)
 
-### Current interests:
+### Domains
+
+- Software (everything above firmware)
+- Manufacturing (created system that automatically determines the cost of manufacturing an arbitrary CAD file using 3D printing or injection molding)
+- Finance (2 years on the Data team at Addepar)
+- Natural language processing (published multiple papers in the best computational linguistics journals)
+- User interfaces (designed a hybrid human/machine translation system, conducted user study and published paper)
+
+### Current interests
 
 - Meeting new smart people
 - Recording everything
 - Improving at life, programming, and everything
 
-Please say hello if you're interested in any of the above, especially if you live in the Bay area!
+Please [email me](mailto:{{ site.author.email }}) if you're interested in any of the above, especially if you live in the Bay area!
 
-### Future plans
+### Far future plans
 
 I currently either don't have the time or resources, but am interested in the following:
 
@@ -49,17 +58,19 @@ I currently either don't have the time or resources, but am interested in the fo
 
 2005-01-01: Start sailing around the world on Semester at Sea. Almost die in the North Pacific. Totally worth it.
 
-2007-05-01: Start doing machine learning and NLP research with Dr. Hwa
+2006-05-01: Start doing machine learning and NLP research with Dr. Hwa
 
-2008-05-01: Decide that research is fun, but not what I want to do forever. Start figuring out how to start my own company.
+2007-05-01: Decide that research is fun, but not what I want to do forever. Start figuring out how to start my own company.
 
-2009-08-30: Graduate from the University of Pittsburgh with a BA in CS and Math, a Masters in CS, and some publications.
+2008-08-30: Graduate from the University of Pittsburgh with a BA in CS and Math, a Masters in CS, and some publications.
 
-2010-01-01: Enter AlphaLab technology accelerator with BitBlinder (software for privacy and anonymity)
+2009-01-01: Enter AlphaLab technology accelerator with BitBlinder (software for privacy and anonymity)
 
-2011-05-01: After tons of interest, millions of page views, 50,000 users, BitBlinder shuts down due to lack of profitable opportunities. Good technology, poor business.
+2010-05-01: After tons of interest, millions of page views, 50,000 users, BitBlinder shuts down due to lack of profitable opportunities. Good technology, poor business.
 
-2011-09-01: Join up with Nick Pinkston on CloudFab, software for industrial users of 3D-printing
+2010-09-01: Join up with Nick Pinkston on CloudFab, software for industrial users of 3D-printing
+
+2011-06-01: Decided that video games are a plague on humanity and stopped playing.
 
 2012-02-01: Sell CloudFab to the largest producer of Objet 3D-printed parts in the US.
 

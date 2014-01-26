@@ -9,7 +9,7 @@ header : About
 
 - Programming (~15,000 hours combined of Python, Java, Scala, C++, Javascript, C, Lua, Perl, PHP, and more)
 - Business (started two companies, sold one)
-- Software architecture and big data (planned and built a 100K LOC system that modelled all of the world's financial information for Addepar)
+- Software architecture and big data (planned and built a 100K LOC system that modeled all of the world's financial information for Addepar)
 - Machine learning (published multiple papers using SVMs to optimize machine translation evaluation)
 - Speed reading
 - Thinking (interested in cognitive biases, heuristics, rationality, etc)

@@ -4,10 +4,11 @@ title: Josh Albrecht
 ---
 {% include JB/setup %}
 
-I am the luckiest software engineer and entreprenuer.
+I am a lucky entrepreneur, a rational techno-optimist, and a devoted software engineering disciple who is madly in love with hardware and manufacturing.
 
-I'm currently working on my personal project backlog and taking some time to learn about new areas of technology. Some areas of recent interest include virtual assistants, quantified self, wearable devices, hardware, manufacturing, machine learning, and building software while taking the time to adhere to all software development best practices.
+After (relatively brief) recent exploratory period, I've decided what I want to spend the next 5 years of my life building.
+Unfortunately I can't share anything publicly yet, but if you're interested in the intersection of virtual reality, manufacturing, computer vision and optics, I will buy you dinner.
 
 If you'd like to learn more or say hello, check out my [about](/about.html) page or simply [email me](mailto:{{ site.author.email }}).
 
-Tell me how I can help you!
+Also--tell me how I can help you!

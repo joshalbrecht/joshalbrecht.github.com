@@ -14,6 +14,7 @@ It took a while. I explored many different industries (health, programming tools
 I also talked to a number of other companies and entrepreneurs at the very earliest stages of their companies, and strongly considered joining a few. Again, I'm extremely thankful for the time they took to show me the inner workings of their businesses and markets, and I wish them all the best of luck.
 
 My two main criteria for selecting my next venture were that:
+
 - I have > 99% certainty that the eventual market will be at least $10B.
 - I have > 99% certainty that our product will be at least 3x better than the next best alternative when released.
 

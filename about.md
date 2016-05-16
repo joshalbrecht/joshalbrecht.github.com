@@ -7,10 +7,10 @@ header : About
 
 ### Skills
 
-- Programming (~16,000 hours combined of C++, Python, Java, Scala, Javascript, C, Lua, Perl, PHP, and more)
-- Business (started two companies, sold one)
+- Programming (~16,000 hours combined of Python, C++, Java, Scala, Javascript, C, Lua, Perl, PHP, and more)
+- Business (started four companies, sold one)
 - Software platform architecture (planned and built a 100K LOC system that modeled all of the world's financial information for Addepar)
-- Machine learning (published multiple papers using SVMs to optimize machine translation evaluation)
+- Machine learning (published multiple papers using ML to optimize machine translation evaluation)
 - Speed reading
 - Thinking (interested in cognitive biases, heuristics, rationality, etc)
 
@@ -22,14 +22,14 @@ header : About
 - Finance (2 years on the Data team at Addepar)
 - Natural language processing (published multiple papers in the best computational linguistics journals)
 - User interfaces (designed a hybrid human/machine translation system, conducted user study and published paper)
+- Virtual reality (built multiple prototypes of a novel VR display)
 
 ### Current interests
 
 - Meeting new smart people
-- Virtual reality
-- Computer vision
-- Optics
 - Improving at life, programming, and everything
+- NLP and ML
+- Biology (synthetic and other very low level)
 
 Please [email me](mailto:{{ site.author.email }}) if you're interested in any of the above, especially if you live in the Bay area!
 
@@ -47,7 +47,7 @@ I currently either don't have the time or resources, but am interested in the fo
 
 (this part is very fuzzy)
 
-1990-01-01: Somewhere in here, got access to my first computer. Lots of video games and NES after this point.
+1990-01-01: Somewhere in here, got access to my first computer. Lots of video games after this point.
 
 1997-06-01: Start reading a 1000 page book about programming in C++
 
@@ -85,7 +85,13 @@ I currently either don't have the time or resources, but am interested in the fo
 
 2014-03-01: Left Addepar because I could not resist the urge to build my own company again.
 
-2014-06-25: After exploring (prototyping/invalidating) more than 100 ideas in a wide variety of industries, finally decided on what I will build next. Unfortunately it requires a bit of stealth in the beginning, but please reach out if you're interested!
+2014-06-25: Explored a bunch of ideas. Learned a lot. Started working on a virtual reality display.
+
+2014-10-01: Started Ember Hardware. Built some really cool prototypes of the VR headset with a bunch of friends.
+
+2015-05-01: Decided to shut down Ember. Just too hard to make a great hardware business from scratch in VR.
+
+2015-11-01: Started working on Sourceress.co
 
 
 The above dates are approximate until I have time to go back and figure out exactly.

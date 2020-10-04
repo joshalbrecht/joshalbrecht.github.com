@@ -4,8 +4,10 @@ title: Josh Albrecht
 ---
 {% include JB/setup %}
 
-I am a lucky entrepreneur and a rational techno-optimist. 
+Currently Head of Research at [UntitledAI Labs](https://untitled-ai.github.io/). 
+We're investigating the fundamental problems of machine learning and human cognition.
 
-Currently a co-founder of [Sourceress](http://sourceress.com). Our mission is to allocate humanity's efforts to projects that will improve the welfare of all. Such projects include [scientific research](http://www.buckinstitute.org/), [grand projects](http://www.spacex.com/mars), and [humanitarian efforts](http://www.givewell.org/). 
+[Reach out](mailto:{{ site.email }}) if you share an interest in developing software that actually understands the world!
 
-If you'd like to help or just say hello, feel free to simply [email me](mailto:{{ site.email }}).
+Former CTO of [Sourceress](https://techcrunch.com/2017/11/07/sourceress-raises-3-5m-to-find-candidates-that-managers-want-without-realizing-it/) (YC S17) and academic ML / NLP researcher under [Rebecca Hwa](https://people.cs.pitt.edu/~hwa/).
+
